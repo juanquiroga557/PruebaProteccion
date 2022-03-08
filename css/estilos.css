@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    font-family: Oswald;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/images/1140-aurora-borealis-esp.jpg) #000;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.widget {
+    width: 40%;
+    margin: 2em;
+    margin: 0 auto; 
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.caja-segundos {
+    display: inline-block;
+}
+
+.reloj {
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    font-size: 4em;
+    background: rgba(0, 0, 0, .5)
+}
+
+.button {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    color: #C9C9C9;
+    cursor: pointer;
+}
+
+.fibonnaci {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, .5);
+    word-wrap: break-word;
+}
+
+.fibonnaci label {
+    font-size: 20px;
+}
+
+.reloj .segundos, .reloj .ampm {
+    font-size:2rem;
+    display:block;
+}
+
+/* .form_reloj  {
+    display: inline-block;
+    background-color: yellow;
+}
+
+#lblReloj  {
+    font-size: 50px;
+} */
+
+@media (min-width: 568px) and (max-width: 870px) {
+    .widget p {
+        font-size: 2rem;
+    }
+
+    .caja-segundos .ampm,  .caja-segundos .segundos  {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 568px) {
+    .widget p {
+        font-size: 2rem;
+    }
+
+    .caja-segundos .ampm,  .caja-segundos .segundos  {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px)  {
+    .widget p {
+        font-size: 1.4rem;
+    }
+
+    .caja-segundos .ampm,  .caja-segundos .segundos  {
+        font-size: 1.4rem;
+    }
+}
